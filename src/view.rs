@@ -16,26 +16,6 @@ pub enum Message {
     Submit,
 }
 
-// let mut cmd = matches.opt_default("cmd", "");
-// let max_failures: usize = match matches.opt_get("max-failures") {
-//     Ok(v) => v.unwrap_or(5),
-//     Err(e) => {
-//         eprintln!("unable to parse max failures: {e}");
-//         std::process::exit(1)
-//     }
-// };
-// let user: Option<String> = matches.opt_get("user").unwrap_or_default();
-// for _ in 0..max_failures {
-//     match login(&mut cmd, user.as_deref()) {
-//         Ok(LoginResult::Success) => break,
-//         Ok(LoginResult::Failure) => eprintln!("Login incorrect\n"),
-//         Err(e) => {
-//             eprintln!("error: {e}");
-//             std::process::exit(1);
-//         }
-//     }
-// }
-
 impl MigreetApp {
     pub fn update(&mut self, message: Message) {
         match message {
