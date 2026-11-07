@@ -6,7 +6,7 @@ pub enum LoginResult {
     Failure,
 }
 
-pub fn login2(
+pub fn login(
     user: &str,
     auth: &str,
     command: &String,

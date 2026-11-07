@@ -4,7 +4,7 @@ use iced::{Theme, window};
 
 fn main() -> iced::Result {
     let _ = iced::application(
-        view::MigreetApp::default,
+        view::MigreetApp::boot,
         view::MigreetApp::update,
         view::MigreetApp::view,
     )
