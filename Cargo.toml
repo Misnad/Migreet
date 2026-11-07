@@ -1,0 +1,10 @@
+[package]
+name = "Migreet"
+version = "0.0.1"
+authors = ["Misnad"]
+edition = "2024"
+license = "GPL-3.0-only"
+
+[dependencies]
+iced = "0.14.0"
+greetd_ipc = { version = "0.10.3", features = ["sync-codec"] }
