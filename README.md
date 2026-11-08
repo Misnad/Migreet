@@ -11,3 +11,6 @@ Migreet is implemented in Rust with [Iced](https://iced.rs/), and is ment to be 
 ![Login Screen](screenshots/1.jpg)
 
 Inspired by [ReGreet](https://github.com/rharish101/ReGreet).
+
+___
+[![brainmade](https://brainmade.org/white-logo.png){height=25px}](https://brainmade.org)
